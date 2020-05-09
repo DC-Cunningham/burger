@@ -17,9 +17,23 @@ A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Utilis
 
 ## Screenshot
 
+<img src="./public/assets/images/App_SS.jpg" alt="alt text" width="600">
+
 ## Installation
 
+The application has been deployed on Heroku and is available [here](https://murmuring-springs-41737.herokuapp.com/)
+
 ## Usage
+
+- Eat the Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+
+- Whenever a user submits a burger's name, the app displays the burger on the left side of the page and is waiting to be devoured.
+
+- Each burger in the waiting area also has a `Eat it!` button. When the user clicks it, the burger will move to the right side of the page.
+
+- Burgers on the right hand side of the page have an `Order Another!` button. When the user clicks it, the burger will move to the left side of the page.
+
+- The app stores every burger in a database, whether devoured or not.
 
 ## Authors and Acknowledgment
 
